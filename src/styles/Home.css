@@ -1,0 +1,101 @@
+.homepage__banner{
+    width: 100%;
+    height:100vh;
+    background:url("../../public/assets/bgimg.jpg");
+    background-size: cover;
+    margin:0;
+    padding: 0;
+}
+.homepage__banner>div{
+    position: relative;
+    top:45%;
+    left:35%;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    width: 40rem;
+    padding:2rem 5rem;
+    font-size: 2.4em;
+    text-align: center;
+    border-radius:2rem;
+}
+.swiper:hover .swiper-button-prev{
+    visibility:visible !important;
+    transition: all 0.5s ease-in-out;
+}
+.swiper:hover .swiper-button-next {
+    visibility: visible !important;
+    transition: all 0.5s ease-in-out;
+}
+.slider{
+    width:93vw;
+    margin:auto;
+    margin-top: 8rem;
+}
+.slider>h2{
+    font-size: 2em;
+}
+.swiper-button-prev,.swiper-button-next{
+    background-color: grey;
+visibility: hidden !important;
+    color:white !important;
+    z-index: 100;
+    opacity:  1.0 !important;
+    padding:5rem 3rem;
+    border-radius: 2rem;
+}
+/* .swiper-button-next{
+    transform: translateX(30rem);
+}
+.swiper-button-prev {
+    transform: translateX(-30rem);
+} */
+.swiper-wrapper{
+    width:90vw;
+    
+}
+.homepage__slider__2{
+    width:80%;
+    height:50rem;
+    background-color: pink;
+    background:url("../../public/assets/slider-1.jpg");
+    margin:auto;
+}
+.homepage__slider__2>div {
+    position: relative;
+    top: 45%;
+    left: 35%;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    width: 30rem;
+    padding: 0.2em 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 2rem;
+}
+.single__slide__slider{
+    width: 80vw;
+    margin:auto;
+}
+/* .single__slide__slider .swiper-button-prev{
+    transform: translateX(25rem);
+} */
+/* @media screen and (max-width:600px) {
+    .homepage__banner>div{
+        left:40%;
+        width:100px;
+    }
+    .homepage__banner>div>h2{
+        font-size:10px;
+    }
+    .homepage__slider__2>div{
+        width:100px;
+    }
+    .homepage__slider__2>div>h2{
+        font-size:10px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        font-size:10px !important;
+        padding:10px;
+    }
+} */

@@ -1,0 +1,104 @@
+.custom__header{
+    display:flex;
+    justify-content:space-around;
+    background-color:#fff;
+    width: 100vw;
+    position:fixed;
+    height:8rem;
+    align-items:center;
+    padding:0rem 10rem;
+    z-index: 10000;
+}
+.custom__header button{
+    border:none;
+    background-color:transparent;
+    width:10vw;
+    font-size: 2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0rem 2rem;
+}
+.custom__header button img{
+    width:2vw;
+    object-fit: contain;
+}
+.header__button__container{
+    display:flex;
+    flex:0.3
+}
+.header__button__container>button:nth-child(1){
+    border-right:.2rem solid #333;
+}
+.header__button__container>button:nth-child(2) {
+    border-right: .2rem solid #333;
+}
+.header__input__container{
+    flex:0.4;
+    display:flex;
+    align-items: center;
+    padding-left: 1rem;
+    border-bottom:.2rem solid #333;
+}
+.header__input__container>input{
+    border:none;outline:none;
+    font-size:2.4rem;
+    font-weight: 500;
+}
+.header__logo__container{
+    display:flex;
+    flex:0.2;
+}
+.logo__icon{
+    font-size:3rem;
+    margin-right: 2rem;
+}
+.header__dropdown{
+    position:absolute;
+    top:6rem;
+    background-color:#fff;
+    border-radius: 1rem;
+    width:15rem;
+    text-align:left;
+    box-shadow: 0rem 0rem .5rem #333;
+    height:10rem;
+}
+.header__dropdown>p{
+    margin:0;
+    padding:0rem 2rem;
+}
+.header__dropdown>p:hover{
+    background-color:#d3d3d3;
+}
+.header__logo{
+    width:10vw;
+}
+/* @media screen and (max-width:600px) {
+    .custom__header{
+        padding:0px;
+        height:40px;
+    }
+    .custom__header button{
+        width:10vw;
+        padding:0px;
+        font-size:10px;
+    }
+    .header__icons{
+        width:10px;
+        
+    }
+    .logo__icon{
+        width:20px;
+    }
+    .header__logo{
+        width:60px;
+        object-fit: contain;
+    }
+    .header__input__container{
+        width:20vw;
+        font-size:8px;
+    }
+    .header__input__container>input{
+        width: 80%;
+    }
+} */
