@@ -37,7 +37,7 @@ function Header() {
         </button>
         <button>
           <img className="header__icons" src="../assets/icon_bag.png" />
-          Bag
+          <span className="bagsp">Bag</span>
         </button>
       </div>
     </div>
