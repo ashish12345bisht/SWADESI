@@ -10,7 +10,7 @@ function Card({ oldPrice, url }) {
       {oldPrice !== "" && (
         <div className="card__prices">
           <h5>₹880</h5>
-          <h5>₹900</h5>
+          <h5>₹800</h5>
         </div>
       )}
     </div>
