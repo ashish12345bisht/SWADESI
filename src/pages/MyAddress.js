@@ -46,7 +46,7 @@ export default function MidPage() {
             </div>
             
           </div>
-        </div>
+        </div> 
       </nav>
       <Footer2/>
     </>
