@@ -73,6 +73,9 @@
 .header__logo{
     width:10vw;
 }
+.bagsp{
+    margin-left: -100px;
+}
 /* @media screen and (max-width:600px) {
     .custom__header{
         padding:0px;
